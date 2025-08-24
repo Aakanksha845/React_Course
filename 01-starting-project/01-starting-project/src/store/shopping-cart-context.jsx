@@ -11,6 +11,8 @@ import { createContext } from "react";
 // you can give a number, string, boolean, object, array, function etc.
 const CartContext = createContext({
   items: [],
+  addItemToCart: () => {},
+  updateItemQuantity: () => {},
 });
 
 export default CartContext;
